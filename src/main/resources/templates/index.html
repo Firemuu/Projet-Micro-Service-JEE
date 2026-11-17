@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Philosophes gâtés</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 2rem; background: #f7f7f7; }
+            h1 { color: #1d3557; }
+            ul { background: white; border-radius: 10px; padding: 1.2rem 2rem; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+            li { margin: 0.4rem 0; }
+        </style>
+    </head>
+    <body>
+        <h1>Tableau de bord des philosophes gâtés</h1>
+        <ul>
+            <li th:each="event : ${events}" th:text="${event}"></li>
+        </ul>
+    </body>
+</html>

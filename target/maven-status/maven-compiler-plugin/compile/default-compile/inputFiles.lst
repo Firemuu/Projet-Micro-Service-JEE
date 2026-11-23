@@ -1,8 +1,9 @@
-/home/cytech/travail/Ing2/jee/tp/demo/src/main/java/com/test/demo/DemoApplication.java
-/home/cytech/travail/Ing2/jee/tp/demo/src/main/java/com/test/demo/controller/PhilosopherController.java
-/home/cytech/travail/Ing2/jee/tp/demo/src/main/java/com/test/demo/monitor/EventType.java
-/home/cytech/travail/Ing2/jee/tp/demo/src/main/java/com/test/demo/monitor/MonitorService.java
-/home/cytech/travail/Ing2/jee/tp/demo/src/main/java/com/test/demo/monitor/PhilosopherEvent.java
-/home/cytech/travail/Ing2/jee/tp/demo/src/main/java/com/test/demo/philosopher/Philosopher.java
-/home/cytech/travail/Ing2/jee/tp/demo/src/main/java/com/test/demo/philosopher/PhilosopherState.java
-/home/cytech/travail/Ing2/jee/tp/demo/src/main/java/com/test/demo/web/Controleur.java
+/home/cytech/travail/Ing2/jee/Projet-Micro-Service-JEE/src/main/java/com/test/demo/DemoApplication.java
+/home/cytech/travail/Ing2/jee/Projet-Micro-Service-JEE/src/main/java/com/test/demo/controller/PhilosopherController.java
+/home/cytech/travail/Ing2/jee/Projet-Micro-Service-JEE/src/main/java/com/test/demo/monitor/EventType.java
+/home/cytech/travail/Ing2/jee/Projet-Micro-Service-JEE/src/main/java/com/test/demo/monitor/MonitorService.java
+/home/cytech/travail/Ing2/jee/Projet-Micro-Service-JEE/src/main/java/com/test/demo/monitor/PhilosopherEvent.java
+/home/cytech/travail/Ing2/jee/Projet-Micro-Service-JEE/src/main/java/com/test/demo/philosopher/Philosopher.java
+/home/cytech/travail/Ing2/jee/Projet-Micro-Service-JEE/src/main/java/com/test/demo/philosopher/PhilosopherState.java
+/home/cytech/travail/Ing2/jee/Projet-Micro-Service-JEE/src/main/java/com/test/demo/supervisor/SupervisorService.java
+/home/cytech/travail/Ing2/jee/Projet-Micro-Service-JEE/src/main/java/com/test/demo/web/Controleur.java

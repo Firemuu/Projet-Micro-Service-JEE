@@ -9,17 +9,19 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import com.test.demo.monitor.MonitorService;
 import com.test.demo.philosopher.Philosopher;
+import com.test.demo.supervisor.SupervisorService;
 
 @Controller
 public class Controleur {
 
     private final MonitorService monitorService = new MonitorService();
+    private final SupervisorService supervisorService = new SupervisorService(5);
     private final List<Philosopher> philosophers = List.of(
-        new Philosopher(1, monitorService, new Random(1L)),
-        new Philosopher(2, monitorService, new Random(2L)),
-        new Philosopher(3, monitorService, new Random(3L)),
-        new Philosopher(4, monitorService, new Random(4L)),
-        new Philosopher(5, monitorService, new Random(5L))
+        new Philosopher(1, 5, monitorService, supervisorService, new Random(1L)),
+        new Philosopher(2, 5, monitorService, supervisorService, new Random(2L)),
+        new Philosopher(3, 5, monitorService, supervisorService, new Random(3L)),
+        new Philosopher(4, 5, monitorService, supervisorService, new Random(4L)),
+        new Philosopher(5, 5, monitorService, supervisorService, new Random(5L))
     );
 
     public Controleur() {

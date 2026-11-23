@@ -1,2 +1,3 @@
-/home/cytech/travail/Ing2/jee/tp/demo/src/test/java/com/test/demo/DemoApplicationTests.java
-/home/cytech/travail/Ing2/jee/tp/demo/src/test/java/com/test/demo/monitor/MonitorServiceTest.java
+/home/cytech/travail/Ing2/jee/Projet-Micro-Service-JEE/src/test/java/com/test/demo/DemoApplicationTests.java
+/home/cytech/travail/Ing2/jee/Projet-Micro-Service-JEE/src/test/java/com/test/demo/monitor/MonitorServiceTest.java
+/home/cytech/travail/Ing2/jee/Projet-Micro-Service-JEE/src/test/java/com/test/demo/supervisor/SupervisorServiceTest.java
